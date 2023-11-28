@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tienda de Ropa</title>
+  <!-- Aquí puedes enlazar tu hoja de estilos CSS si la tienes -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <a href="index.html"><img src="ruta/a/tu/logo.png" alt="Logo de la empresa"></a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="productos.html">Productos</a></li>
+      <li><a href="nosotros.html">Nosotros</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- El resto de tu contenido va aquí -->
+
+</body>
+</html>
+
+/* Estilos para el header */
+header {
+  background-color: #f8f8f8; /* Color de fondo del header */
+  padding: 20px; /* Espaciado interno del header */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para el header */
+}
+
+/* Estilos para el logo */
+.logo {
+  max-width: 150px; /* Ancho máximo del logo */
+}
+
+.logo img {
+  width: 100%; /* Ajustar el tamaño del logo al contenedor */
+  height: auto; /* Mantener la proporción del logo */
+}
+
+/* Estilos para el menú de navegación */
+nav ul {
+  list-style: none; /* Eliminar viñetas de la lista */
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline; /* Mostrar los elementos del menú en línea */
+  margin-right: 20px; /* Espacio entre elementos del menú */
+}
+
+nav ul li a {
+  text-decoration: none; /* Quitar subrayado del enlace */
+  color: #333; /* Color del texto del enlace */
+  font-weight: bold; /* Texto en negrita */
+  transition: color 0.3s ease; /* Efecto de transición en el color */
+}
+
+nav ul li a:hover {
+  color: #FFA500; /* Color del texto del enlace al pasar el mouse */
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tienda de Ropa</title>
+  <!-- Enlaza tu hoja de estilos CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <!-- ... (código del header) -->
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Bienvenido a nuestra tienda de ropa</h1>
+    <p>Descubre la última moda y encuentra prendas únicas para lucir siempre a la vanguardia.</p>
+    <a href="servicios.html" class="btn-action">Ver nuestros servicios</a>
+  </div>
+</section>
+
+<!-- El resto de tu contenido va aquí -->
+
+</body>
+</html>
+
+/* Estilos para la sección hero */
+.hero {
+  background-image: url('ruta/a/imagen.jpg'); /* Agrega la ruta a tu imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Color del texto */
+  text-align: center;
+  padding: 100px 20px; /* Espaciado interno */
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.btn-action {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #FFA500; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-action:hover {
+  background-color: #FFD700; /* Color del botón al pasar el mouse */
+}
+
+/* Estilos para la sección hero */
+.hero {
+  background-image: url('ruta/a/imagen.jpg'); /* Ruta a tu imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Color del texto */
+  text-align: center;
+  padding: 100px 20px; /* Espaciado interno */
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+/* Estilos para la llamada a la acción */
+.btn-action {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #FFA500; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-action:hover {
+  background-color: #FFD700; /* Color del botón al pasar el mouse */
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sección de Dos Columnas</title>
+  <!-- Enlaza tu hoja de estilos CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Estilos para la sección de dos columnas */
+    .two-column-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px;
+    }
+
+    .column {
+      flex: 0 0 48%; /* Ajusta el ancho de las columnas según tus necesidades */
+    }
+
+    .column img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .column:nth-child(2) {
+      text-align: left;
+    }
+
+    .column h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .column p {
+      font-size: 1.1em;
+      margin-bottom: 30px;
+    }
+
+    .column a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #FFA500;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .column a:hover {
+      background-color: #FFD700;
+    }
+  </style>
+</head>
+<body>
+
+<section class="two-column-section">
+  <div class="column">
+    <div class="image-container">
+      <img src="ruta/a/imagen.jpg" alt="Imagen de ejemplo">
+    </div>
+  </div>
+  <div class="column">
+    <h2>Sección de Diseño Web</h2>
+    <p>Descubre cómo nuestro equipo puede transformar tu presencia en línea con diseños creativos y funcionales.</p>
+    <a href="servicios.html">Ver nuestros servicios</a>
+  </div>
+</section>
+
+<!-- El resto de tu contenido va aquí -->
+
+</body>
+</html>
+
+/* Estilos para la sección de dos columnas */
+.two-column-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #f8f8f8; /* Color de fondo de la sección */
+}
+
+.column {
+  flex: 0 0 48%; /* Ancho de las columnas */
+}
+
+.column img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.column:nth-child(2) {
+  text-align: left;
+}
+
+.column h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.column p {
+  font-size: 1.1em;
+  margin-bottom: 30px;
+}
+
+.column a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #FFA500;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.column a:hover {
+  background-color: #FFD700;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Galería de Imágenes</title>
+  <!-- Enlaza tu hoja de estilos CSS si es necesario -->
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Estilos para la galería */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 10px;
+      padding: 20px;
+      background-color: #f8f8f8;
+    }
+
+    .gallery img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+
+<section class="gallery">
+  <!-- Cambia las rutas a tus propias imágenes -->
+  <img src="imagen1.jpg" alt="Imagen 1">
+  <img src="imagen2.jpg" alt="Imagen 2">
+  <!-- ... (agrega las restantes imágenes) -->
+  <img src="imagen20.jpg" alt="Imagen 20">
+</section>
+
+<!-- El resto de tu contenido va aquí -->
+
+</body>
+</html>
+
+/* Estilos para la sección de la galería */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.gallery img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease; /* Agregamos transición para efectos al pasar el mouse */
+}
+
+.gallery img:hover {
+  transform: scale(1.05); /* Efecto de aumento al pasar el mouse */
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Footer de la Página Web</title>
+  <!-- Enlaza tu hoja de estilos CSS si es necesario -->
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Estilos para el footer y sus columnas */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+
+    .footer-columns {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+    .footer-columns img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 15px;
+    }
+
+    .footer-columns ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .footer-columns ul li {
+      margin-bottom: 10px;
+    }
+
+    .social-buttons {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .social-buttons button {
+      padding: 10px;
+      border: none;
+      border-radius: 50%;
+      background-color: #fff;
+      color: #333;
+      font-size: 1.2em;
+      transition: transform 0.3s ease;
+    }
+
+    .social-buttons button:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+
+<footer>
+  <div class="footer-columns">
+    <div class="column">
+      <!-- Logo de la empresa -->
+      <img src="ruta/a/logo.png" alt="Logo de la empresa">
+    </div>
+    <div class="column">
+      <!-- Lista de tipos de camisas -->
+      <ul>
+        <li>Camisas de manga corta</li>
+        <li>Camisas de manga larga</li>
+        <li>Camisas estampadas</li>
+        <li>Camisas de vestir</li>
+      </ul>
+    </div>
+    <div class="column">
+      <!-- Lista de pestañas legales -->
+      <ul>
+        <li>Términos y condiciones</li>
+        <li>Política de privacidad</li>
+        <li>Política de devoluciones</li>
+        <li>Aviso legal</li>
+      </ul>
+    </div>
+    <div class="column">
+      <!-- Botones de redes sociales -->
+      <div class="social-buttons">
+        <button>Facebook</button>
+        <button>Twitter</button>
+        <button>Instagram</button>
+        <button>LinkedIn</button>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- El resto de tu contenido va aquí -->
+
+</body>
+</html>
+
